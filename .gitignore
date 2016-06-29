@@ -1,0 +1,12 @@
+target
+.idea/
+*.iml
+*~
+.DS_Store
+.classpath
+.project
+.settings/
+
+.tmp
+node_modules
+config.js

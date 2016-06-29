@@ -1,0 +1,6 @@
+{
+  "name": "USCIS TD Guestbook",
+  "description": "A simple Guestbook application.",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}

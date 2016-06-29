@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-karma": "^1.0.0",
+    "karma": "^0.13.22",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.26",
+    "load-grunt-tasks": "^3.5.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "jasmine": "^2.4.1",
+    "karma-jasmine": "^1.0.2"
+  }
+}

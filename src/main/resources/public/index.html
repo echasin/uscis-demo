@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en" ng-app="guestbook" ng-cloak>
+<head>
+  <meta charset="utf-8">
+  <title>Guestbook Application</title>
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+  <div><a href="#/register">Register</a> | <a href="#/login">Login</a> | <a href="#/logout">Logout</a></div>
+  <div ng-view></div>
+
+  <script src="js/lib/angular/angular.js"></script>
+  <script src="js/lib/angular/angular-sanitize.js"></script>
+  <script src="js/lib/angular/angular-route.js"></script>
+
+  <script src="js/app.js"></script>
+
+  <script src="js/controllers/guestbookCtrl.js"></script>
+  <script src="js/controllers/registerCtrl.js"></script>
+  <script src="js/controllers/loginCtrl.js"></script>
+  <script src="js/controllers/logoutCtrl.js"></script>
+
+  <script src="js/services/Alerts.js"></script>
+
+  <script src="js/filters.js"></script>
+
+  <script src="js/lib/angular/angular-mocks.js"></script>
+
+</body>
+</html>
